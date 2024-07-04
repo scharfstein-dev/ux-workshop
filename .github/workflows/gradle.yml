@@ -50,7 +50,7 @@ jobs:
         # The IDE access key of the given user. Can be retrieved in Teamscale under Admin > Users.
         accesskey: ${{ secrets.TEAMSCALE_ACCESS_KEY }}
         # # The file format of the reports which are specified as command line arguments. See http://cqse.eu/upload-formats for a full list of supported file formats.
-        # format: # optional
+        # format: # optional CHANGE
         # # The version control commit for which you obtained the report files. E.g. if you obtained a test coverage report in your CI pipeline, then this is the commit the CI pipeline built before running the tests. Can be either a Git SHA1, a SVN revision number or an Team Foundation changeset ID.
         # revision: # optional
         # # When using the revision parameter, this parameter allows to pass a repository name which is used to identify the correct commit in situations where the same revision exists in multiple repositories.
